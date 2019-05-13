@@ -41,3 +41,6 @@ range
             'upper' => mktime(0, 0, 0, 12, 31, 2020),
             'lower' => mktime(0, 0, 0, 1, 1, 2014),
         ],
+
+    .. note::
+        Since the TCA is meant for configuration and cached by the system you should refrain from adding dynamic code.
